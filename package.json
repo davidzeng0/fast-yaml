@@ -2,6 +2,7 @@
 	"name": "fast-yaml",
 	"version": "0.0.1",
 	"main": "build/index.js",
+	"types": "build/types.d.ts",
 	"dependencies": {
 		"@types/js-yaml": "^4.0.5",
 		"js-yaml": "^4.1.0",
