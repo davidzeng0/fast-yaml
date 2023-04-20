@@ -1,24 +1,23 @@
 {
-	"name": "fast-yaml",
-	"version": "0.0.1",
-	"main": "build/index.js",
-	"types": "build/index.d.ts",
-	"dependencies": {
-		"js-yaml": "^4.1.0",
-		"yaml": "^2.2.1"
-	},
-	"devDependencies": {
-		"@types/js-yaml": "^4.0.5",
-		"@types/node": "^18.15.3",
-		"git-publish": "^2.0.0",
-		"typescript": "^4.9.5"
-	},
-	"files": [
-		"build"
-	],
-	"scripts": {
-		"build": "tsc",
-		"prepare": "tsc",
-		"git-publish": "git-publish -b dist"
-	}
+  "name": "fast-yaml",
+  "version": "0.0.1",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "dependencies": {
+    "js-yaml": "^4.1.0",
+    "yaml": "^2.2.1"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.5",
+    "@types/node": "^18.15.3",
+    "git-publish": "^2.0.0",
+    "typescript": "^4.9.5"
+  },
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "git-publish": "git-publish -b dist"
+  }
 }
